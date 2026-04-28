@@ -81,7 +81,7 @@ export default function DashboardPage() {
             </h2>
             <p className="text-gray-400">
               {before
-                ? "Começa em 28/04/2025. Até lá, descanse e se prepare!"
+                ? "Começa em 28/04/2026. Até lá, descanse e se prepare!"
                 : "Boa sorte nas provas, Fernando, Gabriel e Diogenes! 💪"}
             </p>
           </div>
