@@ -13,8 +13,8 @@ export type DaySchedule = {
 export const schedule: DaySchedule[] = [
   {
     day: 1,
-    date: "2025-04-28",
-    label: "Dia 1 — Seg, 28/04",
+    date: "2026-04-28",
+    label: "Dia 1 — Ter, 28/04",
     blocks: [
       {
         subject: "🧒 Pediatria",
@@ -48,8 +48,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 2,
-    date: "2025-04-29",
-    label: "Dia 2 — Ter, 29/04",
+    date: "2026-04-29",
+    label: "Dia 2 — Qua, 29/04",
     blocks: [
       {
         subject: "🧒 Pediatria",
@@ -83,8 +83,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 3,
-    date: "2025-04-30",
-    label: "Dia 3 — Qua, 30/04",
+    date: "2026-04-30",
+    label: "Dia 3 — Qui, 30/04",
     blocks: [
       {
         subject: "🧒 Pediatria",
@@ -118,8 +118,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 4,
-    date: "2025-05-01",
-    label: "Dia 4 — Qui, 01/05",
+    date: "2026-05-01",
+    label: "Dia 4 — Sex, 01/05",
     blocks: [
       {
         subject: "🧒 Pediatria",
@@ -153,8 +153,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 5,
-    date: "2025-05-02",
-    label: "Dia 5 — Sex, 02/05",
+    date: "2026-05-02",
+    label: "Dia 5 — Sáb, 02/05",
     blocks: [
       {
         subject: "🧒 Pediatria",
@@ -188,8 +188,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 6,
-    date: "2025-05-03",
-    label: "Dia 6 — Sáb, 03/05",
+    date: "2026-05-03",
+    label: "Dia 6 — Dom, 03/05",
     blocks: [
       {
         subject: "🧒 Pediatria",
@@ -223,8 +223,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 7,
-    date: "2025-05-04",
-    label: "Dia 7 — Dom, 04/05",
+    date: "2026-05-04",
+    label: "Dia 7 — Seg, 04/05",
     blocks: [
       {
         subject: "🧒 Pediatria",
@@ -258,8 +258,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 8,
-    date: "2025-05-05",
-    label: "Dia 8 — Seg, 05/05",
+    date: "2026-05-05",
+    label: "Dia 8 — Ter, 05/05",
     blocks: [
       {
         subject: "🩻 Ginecologia e Obstetrícia",
@@ -293,8 +293,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 9,
-    date: "2025-05-06",
-    label: "Dia 9 — Ter, 06/05",
+    date: "2026-05-06",
+    label: "Dia 9 — Qua, 06/05",
     blocks: [
       {
         subject: "🩻 GO",
@@ -328,8 +328,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 10,
-    date: "2025-05-07",
-    label: "Dia 10 — Qua, 07/05",
+    date: "2026-05-07",
+    label: "Dia 10 — Qui, 07/05",
     blocks: [
       {
         subject: "🏥 Medicina de Família",
@@ -363,8 +363,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 11,
-    date: "2025-05-08",
-    label: "Dia 11 — Qui, 08/05",
+    date: "2026-05-08",
+    label: "Dia 11 — Sex, 08/05",
     blocks: [
       {
         subject: "🩻 GO",
@@ -400,8 +400,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 12,
-    date: "2025-05-09",
-    label: "Dia 12 — Sex, 09/05",
+    date: "2026-05-09",
+    label: "Dia 12 — Sáb, 09/05",
     blocks: [
       {
         subject: "🩻 GO",
@@ -435,8 +435,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 13,
-    date: "2025-05-10",
-    label: "Dia 13 — Sáb, 10/05",
+    date: "2026-05-10",
+    label: "Dia 13 — Dom, 10/05",
     blocks: [
       {
         subject: "🩻 GO",
@@ -470,8 +470,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 14,
-    date: "2025-05-11",
-    label: "Dia 14 — Dom, 11/05",
+    date: "2026-05-11",
+    label: "Dia 14 — Seg, 11/05",
     blocks: [
       {
         subject: "🩻 GO",
@@ -505,8 +505,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 15,
-    date: "2025-05-12",
-    label: "Dia 15 — Seg, 12/05",
+    date: "2026-05-12",
+    label: "Dia 15 — Ter, 12/05",
     blocks: [
       {
         subject: "🔁 Revisão Pediatria",
@@ -540,8 +540,8 @@ export const schedule: DaySchedule[] = [
   },
   {
     day: 16,
-    date: "2025-05-13",
-    label: "Dia 16 — Ter, 13/05",
+    date: "2026-05-13",
+    label: "Dia 16 — Qua, 13/05",
     isExamDay: "🎯 PROVA PEDIATRIA",
     blocks: [
       {

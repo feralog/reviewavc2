@@ -18,16 +18,16 @@ export function getDayByDate(dateStr: string) {
 
 export function isBeforeSchedule(): boolean {
   const today = new Date();
-  const start = new Date("2025-04-28");
   today.setHours(0, 0, 0, 0);
+  const start = new Date(schedule[0].date);
   start.setHours(0, 0, 0, 0);
   return today < start;
 }
 
 export function isAfterSchedule(): boolean {
   const today = new Date();
-  const end = new Date("2025-05-13");
   today.setHours(0, 0, 0, 0);
+  const end = new Date(schedule[schedule.length - 1].date);
   end.setHours(0, 0, 0, 0);
   return today > end;
 }
