@@ -7,7 +7,7 @@ import DayBlock from "@/components/DayBlock";
 import PomodoroTimer from "@/components/PomodoroTimer";
 import ScheduleModal from "@/components/ScheduleModal";
 import { schedule } from "@/data/schedule";
-import { getCurrentDay, isBeforeSchedule, isAfterSchedule, formatDate } from "@/lib/utils";
+import { getCurrentDay, getSaoPauloDateString, isBeforeSchedule, isAfterSchedule, formatDate } from "@/lib/utils";
 
 export default function DashboardPage() {
   const router = useRouter();
@@ -37,7 +37,7 @@ export default function DashboardPage() {
     setCurrentDay(day);
 
     if (day) {
-      const today = new Date().toISOString().split("T")[0];
+      const today = getSaoPauloDateString();
       fetch(`/api/checkin?user=${encodeURIComponent(user)}&date=${today}`)
         .then((r) => r.json())
         .then((data) => {

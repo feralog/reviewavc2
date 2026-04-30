@@ -1,11 +1,20 @@
 import { schedule } from "@/data/schedule";
 
 export function getCurrentDay(): number | null {
-  const today = new Date();
-  const todayStr = today.toISOString().split("T")[0];
+  const todayStr = getSaoPauloDateString();
 
   const found = schedule.find((d) => d.date === todayStr);
   return found ? found.day : null;
+}
+
+export function getSaoPauloDateString(date = new Date()): string {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  return formatter.format(date);
 }
 
 export function getDayByNumber(day: number) {
