@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { questionsByDay, type Question } from "@/data/questions";
-import { getCurrentDay } from "@/lib/utils";
+import { getCurrentDay, getSaoPauloDateString } from "@/lib/utils";
 import Header from "@/components/Header";
 
 type AnswerState = "unanswered" | "correct" | "wrong";
@@ -70,7 +70,7 @@ export default function QuizPage() {
   async function confirmCheckin() {
     setSubmitting(true);
     try {
-      const today = new Date().toISOString().split("T")[0];
+      const today = getSaoPauloDateString();
       await fetch("/api/checkin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
